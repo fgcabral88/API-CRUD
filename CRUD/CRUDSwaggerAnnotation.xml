@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CRUD</name>
+    </assembly>
+    <members>
+        <member name="M:CRUD.Controllers.ProdutoController.GetProduto">
+            <summary>
+            Retorna todos os dados de produtos.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:CRUD.Controllers.ProdutoController.GetIdProduto(System.Int32)">
+            <summary>
+            Retornar o Id do produto.
+            </summary>
+            <param name="id">Id</param>
+            <returns></returns>
+        </member>
+        <member name="M:CRUD.Controllers.ProdutoController.CreateProduto(CRUD.Models.Produto)">
+            <summary>
+            Criar um produto novo.
+            </summary>
+            <param name="produto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CRUD.Controllers.ProdutoController.EditProduto(System.Int32,CRUD.Models.Produto)">
+            <summary>
+            Editar um produto pelo Id.
+            </summary>
+            <param name="id">Id</param>
+            <param name="produto">Produto</param>
+            <returns></returns>
+        </member>
+        <member name="M:CRUD.Controllers.ProdutoController.DeleteProduto(System.Int32)">
+            <summary>
+            Deletar um produto pelo Id.
+            </summary>
+            <param name="id">Id</param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
